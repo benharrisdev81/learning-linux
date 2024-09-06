@@ -40,11 +40,22 @@ their subdirectories for files based on a variety of attributes. The attributes 
 
 #### Finding files through tests
 
-| Test           | Description |
-|:---------------|:------------|
-| `-cmin n`      | Match files or directories whose content or attributes were last modified exactly _n_ minutes ago |
-| `-cnewer file` | Match files or directories who contents or attributes were last modified more recently than those of _file_ |
-| `-ctime n`     | Match files or directories who contents or attributes were last modified _n*24_ hours ago |
+| Test             | Description                                                                                                    |
+|:-----------------|:---------------------------------------------------------------------------------------------------------------|
+| `-cmin n`        | Match files or directories whose content or attributes were last modified exactly _n_ minutes ago              |
+| `-cnewer file`   | Match files or directories who contents or attributes were last modified more recently than those of _file_    |
+| `-ctime n`       | Match files or directories who contents or attributes were last modified _n*24_ hours ago                      |
+| `-empty`         | Match empty files and directories                                                                              |
+| `-group name`    | Matches files or directories belonging to group name (group name of numeric group ID)                          |
+| `-iname pattern` | Like the `-name` test but case-sensitive                                                                       |
+| `-inum n`        | Match files with inode number _n_. This is helpful for finding all of the hard links to a particular hard node |
+| `-mmin n`        | Match files or directories whose contents were last modified _n_ minutes ago                                   |
+| `-mtime n`       | Match files or directories whose contents were last modified _n*24_ hours ago.                                 |
+| `-name pattern`  | Match files and directories with the specified wildcard _pattern_.                                             |
+| `-newer file`    | Match files are directories whose contents were modified more recently than the specified _file_.              |
+| `-nouser`        | Match files and directories that do not belong to a valid user. (deleted accounts, attackers, etc.)            |
+| `-nogroup`       | Match files and directories that do not belong to a valid group.                                               |
+| `-perm mode`     | Match files or directories that have permissions set to the specified _mode_ (either octal or symbolic)        |
 
 ### `grep`
 
