@@ -40,11 +40,11 @@ their subdirectories for files based on a variety of attributes. The attributes 
 
 #### Finding files through tests
 
-| Test      | Description |
-|:----------|:------------|
-| `-cmin _n_` | Match files or directories whose content or attributes were last modified exactly _n_ minutes ago |
-| `cnewer _file_` | Match files or directories who contents or attributes were last modified more recently than those of _file_ |
-| `ctime _n_` | Match files or directories who contents or attributes were last modified _n*24_ hours ago |
+| Test           | Description |
+|:---------------|:------------|
+| `-cmin n`      | Match files or directories whose content or attributes were last modified exactly _n_ minutes ago |
+| `-cnewer file` | Match files or directories who contents or attributes were last modified more recently than those of _file_ |
+| `-ctime n`     | Match files or directories who contents or attributes were last modified _n*24_ hours ago |
 
 ### `grep`
 
