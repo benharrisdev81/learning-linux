@@ -59,7 +59,23 @@ their subdirectories for files based on a variety of attributes. The attributes 
 
 ### `grep`
 
+`grep` is a powerful program used to find text patterns within files. It is used like this:
 
+`grep pattern filename`
+
+It can become very complex, as `grep` accepts regular expressions for the pattern argument. Here's a great example:
+
+```bash
+echo "This is a new file." newfile
+grep new newfile
+```
+
+Suppose you have a directory `~/diary/` where you keep journal entries and you want to know how many entries contain
+the word "anxiety."
+
+`find ~/diary/* -type f | grep -r "anxiety"`
+
+The `-r` argument recurses through specified files and/or directories.
 
 ### `locate`
 
