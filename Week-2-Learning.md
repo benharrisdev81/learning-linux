@@ -8,8 +8,9 @@ The shell stores two basic types of data in the environment:
  * shell variables - placed there by bash
  * environment variables - everything else
 
-The `set` command shows both shell and environment variables. `printenv | less` shows only environment variables.
-`alias` displays a list of aliases.
+You can see all of the variables set for your current shell by typing `set`. A subset of your local variables is referred
+to as environment variables. Environment variables are variables that are exported to any new shells opened from the
+current shell. Type `env` to see environment variables. `alias` displays a list of aliases.
 
 ### Using `.bashrc` or `.zshrc`
 
@@ -63,10 +64,9 @@ Once learning which prompt you are using (bash or zsh or something else), then y
 | `\033[0;42m`  | Green            | `\033[0;46m`  | Cyan             |
 | `\033[0;43m`  | Brown            | `\033[0;47m`  | Light gray       |
 
-You can use the `printf` command to insert special characters into your prompt. For example, `printf '\u26A1\n` 
-displays ⚡️followed by a newline character. You can find a massive list of special characters [here](https://en.wikipedia.org/wiki/List_of_Unicode_characters).
+You can find a massive list of special characters [here](https://en.wikipedia.org/wiki/List_of_Unicode_characters).
 Use the escape codes and special characters to customize your prompt within the appropriate file (`.bashrc` or `.zshrc`).
-Then `source ~/.bashrc` to see the new prompt.
+For example: `PS1="$(echo -e '\u22D9') "`. `source ~/.bashrc` resets your prompt to whatever is stored in `.bashrc`.
 
 ## Exercise: Create custom aliases for commonly used commands and set environment variables you might need.
 
@@ -75,5 +75,6 @@ The `.bashrc` file includes aliases as well. I have entered the following:
 `alias lr='ls -laAhF'`
 
 ## Open Questions
-- [ ] Using special characters within the custom prompt didn't work for me. Why?
+- [x] Using special characters within the custom prompt didn't work for me. Why?
 - [ ] How can I add other things, like repo name, git branch, etc.?
+- [ ] What sorts of things would require environment variables?
