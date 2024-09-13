@@ -10,3 +10,5 @@ Achieve Linux CLI guru status!
 - [ ] How can I customize the prompt with things like repo name, git branch, etc.?
 - [ ] What sorts of things would require environment variables?
 - [ ] Memorize octal notation for `chmod`.
+- [ ] Learn more about `/etc/passwd` and `/etc/group`.
+- [ ] How is `/etc/shadow` encrypted?
