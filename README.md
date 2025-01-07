@@ -1,14 +1,19 @@
-# linux-training
+# learning-linux
 
-## Purpose
+## Why Learn Linux?
 
-Achieve Linux CLI guru status!
+I ascribe my desire to learn Linux and the command line to a collection of things. Raspberry Pi projects kicked
+off my interest first, and then I switched from a PC to a Mac and noticed the similarities in the command line. 
+My work exposed me to various other aspects of computing - automation, scripting, `gcloud` command line tools. 
+The deeper I got, the more I understood how important it all is to understand Linux and shell scripting within 
+the broader technology landscape.
 
-## Open Questions & Things to Learn
+## How to Learn Linux
 
-- [x] Using special characters within the custom prompt didn't work for me. Why?
-- [ ] How can I customize the prompt with things like repo name, git branch, etc.?
-- [ ] What sorts of things would require environment variables?
-- [ ] Memorize octal notation for `chmod`.
-- [ ] Learn more about `/etc/passwd` and `/etc/group`.
-- [ ] How is `/etc/shadow` encrypted?
+My first step was to do what anyone else should do when they decide they want to learn something. I asked ChatGPT 
+to provide a few resources and create a [13-week learning plan]! This learning journey began with the best of 
+intentions, and then work happened. And the holidays happened. 13 weeks have come and gone, but I'm still at it 
+and will continue documenting my learning journey in the wiki.
+
+
+[13-week learning plan]: https://github.com/benharrisdev81/learning-linux/blob/main/learning-plan.md
