@@ -13,7 +13,8 @@ the broader technology landscape.
 My first step was to do what anyone else should do when they decide they want to learn something. I asked ChatGPT 
 to provide a few resources and create a [13-week learning plan]! This learning journey began with the best of 
 intentions, and then work happened. And the holidays happened. 13 weeks have come and gone, but I'm still at it 
-and will continue documenting my learning journey in the wiki.
+and will continue documenting my learning journey in the [wiki].
 
 
 [13-week learning plan]: https://github.com/benharrisdev81/learning-linux/blob/main/learning-plan.md
+[wiki]: https://github.com/benharrisdev81/learning-linux/wiki
