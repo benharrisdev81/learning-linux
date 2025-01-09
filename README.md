@@ -15,6 +15,10 @@ to provide a few resources and create a [13-week learning plan]! This learning j
 intentions, and then work happened. And the holidays happened. 13 weeks have come and gone, but I'm still at it 
 and will continue documenting my learning journey in the [wiki].
 
+## Open Questions
+### Week 2
+ - [ ] How can I add other things to my prompt like repo name, git branch, VPN status, etc.?
+ - [ ] What sorts of things would require environment variables and when would I use them?
 
 [13-week learning plan]: https://github.com/benharrisdev81/learning-linux/blob/main/learning-plan.md
 [wiki]: https://github.com/benharrisdev81/learning-linux/wiki
