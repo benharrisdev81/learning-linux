@@ -19,5 +19,11 @@ and will continue documenting my learning journey in the [wiki].
 ### Week 2
  - [ ] How can I add other things to my prompt like repo name, git branch, VPN status, etc.?
 
+### Week 3
+ - [ ] Is `locate` deprecated or not included in certain Linux versions?
+ - [ ] I understand the `ln` command but not the true usefulness of links.
+
+
+
 [13-week learning plan]: https://github.com/benharrisdev81/learning-linux/blob/main/learning-plan.md
 [wiki]: https://github.com/benharrisdev81/learning-linux/wiki
